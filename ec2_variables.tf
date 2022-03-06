@@ -1,9 +1,3 @@
-variable "instance_1_name" {
-  description = "Name of EC2"
-  type        = string
-  default     = "script-runner"
-}
-
 variable "ami_id" {
   description = "ID of AMI to use, it must have SSM agent installed"
   type        = string

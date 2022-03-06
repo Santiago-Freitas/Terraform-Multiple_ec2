@@ -26,10 +26,3 @@ module "ec2_instance" {
 
   tags = local.tags
 }
-/*
-resource "aws_s3_bucket" "bucket_script" {
-  bucket_prefix = "bucket-script-"
-  acl           = "private"
-  force_destroy = true
-}
-*/
